@@ -11,27 +11,27 @@
 			"region": "Indonesia"
 		},
 		"profiles": [{
-				"network": "Github",
+				"network": "github",
 				"username": "zuramai",
 				"url": "https://github.com/zuramai"
 			},
 			{
-				"network": "LinkedIn",
+				"network": "linkedin",
 				"username": "ahmad-saugi",
 				"url": "https://linkedin.com/in/ahmad-saugi"
 			},
 			{
-				"network": "Twitter",
+				"network": "twitter",
 				"username": "asawgi",
 				"url": "https://twitter.com/in/asawgi"
 			},
 			{
-				"network": "Instagram",
+				"network": "instagram",
 				"username": "asawgi",
 				"url": "https://instagram.com/asawgi"
 			},
 			{
-				"network": "Portofolio",
+				"network": "portfolio",
 				"username": "saugi.me",
 				"url": "https://saugi.me"
 			}
@@ -40,7 +40,7 @@
 	"work": [
         {
             "name": "Open Source",
-            "position": "Web Developer",
+            "position": "OSS Developer",
             "url": "https://github.com/zuramai",
             "startDate": "Apr 2020",
             "endDate": "Present",
@@ -99,11 +99,23 @@
 	}],
 	"certificates": [],
 	"publications": [],
-	"skills": [{
-		"name": "Web Development",
-		"level": "Master",
-		"keywords": ["HTML", "CSS", "JavaScript"]
-	}],
+	"skills": [
+        {
+            "name": "Frontend",
+            "level": "",
+            "keywords": ["Typescript", "Javascript", "Vite", "Vue", "Svelte"]
+        },
+        {
+            "name": "Backend",
+            "level": "",
+            "keywords": ["Laravel", "Go", "Wordpress", "Flask", "Serverless", "Nodejs", "SQL", "MongoDB"]
+        },
+        {
+            "name": "Languages",
+            "level": "",
+            "keywords": ["PHP", "Go", "Javascript", "Python"]
+        }
+    ],
 	"languages": [{
 			"language": "Indonesian",
 			"fluency": "Native speaker"

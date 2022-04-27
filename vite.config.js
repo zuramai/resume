@@ -31,6 +31,20 @@ export default defineConfig(async ({ command, mode }) => {
                     },
                     isNotEmpty: (arr) => {
                         return arr.length > 0
+                    },
+                    joinComma: (arr) => {
+                        return arr.join(", ")
+                    },
+                    toSocialIcon: (text) => {
+                        return {
+                            linkedin: 'ri:linkedin-box-fill',
+                            github: 'ri:github-fill',
+                            instagram: 'ri:instagram-line',
+                            twitter: 'ri:twitter-fill',
+                            website: 'ri:global-line',
+                            link: 'ri:arrow-right-up-line',
+                            portfolio: 'ri:account-circle-fill'
+                          }[text.trim().toLowerCase()]
                     }
                 }
             })

@@ -13,17 +13,31 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
 a {
-    @apply border-b border-stone-600 border-dashed ;
+    @apply border-b border-stone-600 border-dashed transition duration-100;
 }
 a:hover {
     @apply text-yellow-700 border-yellow-700;
 }
-.photo {
-    filter: grayscale(1);
-    object-fit: cover;
-    aspect-ratio: 3 / 4;
-    width: 100%;
+.stackList {
+    grid-column: 2 / span 2;
 }
+section.basic {
+    .photo {
+        filter: grayscale(1);
+        object-fit: cover;
+        aspect-ratio: 3 / 4;
+    }
+    @media screen and (max-width: 768px) {
+        text-align: center;
+
+        .photo {
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+
 .text-serif {
     font-family: 'Source-Serif Pro';
 }
