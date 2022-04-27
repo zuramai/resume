@@ -4,6 +4,7 @@ specifiers:
   autoprefixer: ^10.4.5
   axios: ^0.27.1
   postcss: ^8.4.12
+  sass: ^1.51.0
   tailwindcss: ^3.0.24
   typescript: ^4.5.4
   vite: ^2.9.5
@@ -13,10 +14,11 @@ devDependencies:
   autoprefixer: 10.4.5_postcss@8.4.12
   axios: 0.27.1
   postcss: 8.4.12
+  sass: 1.51.0
   tailwindcss: 3.0.24
   typescript: 4.6.3
-  vite: 2.9.6
-  vite-plugin-handlebars: 1.6.0
+  vite: 2.9.6_sass@1.51.0
+  vite-plugin-handlebars: 1.6.0_sass@1.51.0
 
 packages:
 
@@ -503,6 +505,10 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /immutable/4.0.0:
+    resolution: {integrity: sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==}
+    dev: true
+
   /is-binary-path/2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
@@ -711,6 +717,16 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
+  /sass/1.51.0:
+    resolution: {integrity: sha512-haGdpTgywJTvHC2b91GSq+clTKGbtkkZmVAb82jZQN/wTy6qs8DdFm2lhEQbEwrY0QDRgSQ3xDurqM977C3noA==}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.0.0
+      source-map-js: 1.0.2
+    dev: true
+
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -781,18 +797,18 @@ packages:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
 
-  /vite-plugin-handlebars/1.6.0:
+  /vite-plugin-handlebars/1.6.0_sass@1.51.0:
     resolution: {integrity: sha512-/TZ2FadScvJW6fmQ+3m3stm6ns+tDZ3VAgzEkSQYQurAnaQ/3MJfidhmTXzD1Hu1iwgkI3lNuEqybzjjKemCTg==}
     dependencies:
       handlebars: 4.7.7
-      vite: 2.9.6
+      vite: 2.9.6_sass@1.51.0
     transitivePeerDependencies:
       - less
       - sass
       - stylus
     dev: true
 
-  /vite/2.9.6:
+  /vite/2.9.6_sass@1.51.0:
     resolution: {integrity: sha512-3IffdrByHW95Yjv0a13TQOQfJs7L5dVlSPuTt432XLbRMriWbThqJN2k/IS6kXn5WY4xBLhK9XoaWay1B8VzUw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -812,6 +828,7 @@ packages:
       postcss: 8.4.12
       resolve: 1.22.0
       rollup: 2.70.2
+      sass: 1.51.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
