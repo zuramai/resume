@@ -93,6 +93,12 @@
 		"title": "1st Place in LKS National Competition (Web Technology) 2020",
 		"date": "Oct 2021",
 		"awarder": "Ministry of Education Indonesia",
+        "highlights": [
+            "Speedtest Module (complete several small tasks) in 2 hours",
+            "CMS Wordpress Module (create theme and plugins) in 2 hours",
+            "Server-side Module (using Laravel and VueJS) in 6 hours",
+            "Client-side Module (create HTML5 game) in 4 hours"
+        ],
 		"summary": ""
 	}],
 	"certificates": [],

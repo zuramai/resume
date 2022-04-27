@@ -67,7 +67,7 @@
                                 <li class="card mb-5">
                                     <h5 class="card__title mb-1"><a href="{{ this.url }}">{{ this.name }}</a></h5>
                                     <p class="card__desc mb-2">{{this.position}} | {{this.startDate}} - {{this.endDate}}</p>
-                                    {{#if this.summaryy}}
+                                    {{#if this.summary}}
                                     <p>{{ summary }}</p>
                                     {{/if}}
                                     <ul class="highlights | list-disc pl-4">
@@ -77,6 +77,28 @@
                                     </ul>
                                 </li>
                             {{/each}}
+                            </ul>
+                        </section>
+                    {{/if}}
+
+                    {{#if awards}}
+                        <section class="awards">
+                            <h3 class="section__title">Awards</h3>
+                            <ul class="award-list">
+                                {{#each awards}}
+                                    <li class="card mb-5">
+                                        <h5 class="card__title | mb-1">{{ this.title }}</h5>
+                                        <p class="card__desc | mb-2"><span class="iconify inline text-stone-500" data-icon="ri:building-fill"></span> {{ this.awarder }} | {{ this.date }}</p>
+                                        {{#if this.summary}}
+                                        <p>{{ summary }}</p>
+                                        {{/if}}
+                                        <ul class="highlights | list-disc pl-4">
+                                            {{#each this.highlights}}
+                                                <li>{{ this }}</li>
+                                            {{/each}}
+                                        </ul>
+                                    </li>
+                                {{/each}}                      
                             </ul>
                         </section>
                     {{/if}}
