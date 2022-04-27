@@ -1,0 +1,122 @@
+{
+	"basics": {
+		"name": "Ahmad Saugi",
+		"label": "Software Engineer",
+		"image": "",
+		"email": "saugi.dev@gmail.com",
+		"url": "https://saugi.me",
+		"summary": "My name is Ahmad Saugi, a bachelor of computer science student. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.\n\nI am also an open-source enthusiast and maintainer. I love how collaboration and knowledge sharing happens through open-source and I am happy to see what I do could eventually feedback to the community and industry.\n\nOutside of programming, I enjoy reading books. I love the pleasure and excitement of gaining new knowledge other than programming from the books I read.",
+		"location": {
+			"countryCode": "ID",
+			"region": "Indonesia"
+		},
+		"profiles": [{
+				"network": "Github",
+				"username": "zuramai",
+				"url": "https://github.com/zuramai"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "ahmad-saugi",
+				"url": "https://linkedin.com/in/ahmad-saugi"
+			},
+			{
+				"network": "Twitter",
+				"username": "asawgi",
+				"url": "https://twitter.com/in/asawgi"
+			},
+			{
+				"network": "Instagram",
+				"username": "asawgi",
+				"url": "https://instagram.com/asawgi"
+			},
+			{
+				"network": "Portofolio",
+				"username": "saugi.me",
+				"url": "https://saugi.me"
+			}
+		]
+	},
+	"work": [
+        {
+            "name": "Open Source",
+            "position": "Web Developer",
+            "url": "https://github.com/zuramai",
+            "startDate": "Apr 2020",
+            "endDate": "Present",
+            "summary": "",
+            "location": "Github",
+            "highlights": [
+                "Developed a web application (WhatsappBot App) with Python Flask",
+                "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
+            ]
+	    },
+        {
+            "name": "PT Solusi Intek Indonesia",
+            "position": "Web Developer",
+            "url": "https://intek.co.id/",
+            "startDate": "Jan 2019",
+            "endDate": "Apr 2019",
+            "summary": "",
+            "location": "Bekasi, Indonesia",
+            "highlights": [
+                "Developed a web application (WhatsappBot App) with Python Flask",
+                "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
+            ]
+	    }
+    ],
+	"education": [
+        {
+            "institution": "Binus University",
+            "url": "https://binus.ac.id/",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science",
+            "startDate": "2020",
+            "endDate": "Currently pursuing",
+            "score": "",
+            "courses": []
+        },
+        {
+            "institution": "SMKN 10 Jakarta",
+            "url": "https://binus.ac.id/",
+            "area": "Software Engineering",
+            "studyType": "Vocational High School",
+            "startDate": "2017",
+            "endDate": "2020",
+            "score": "",
+            "courses": []
+        }
+    ],
+	"volunteer": [],
+	"awards": [{
+		"title": "Web Technology LKS National Competition 2020",
+		"date": {
+			"year": "2020",
+			"month": 10
+		},
+		"awarder": "Ministry of Education Indonesia",
+		"summary": ""
+	}],
+	"certificates": [],
+	"publications": [],
+	"skills": [{
+		"name": "Web Development",
+		"level": "Master",
+		"keywords": ["HTML", "CSS", "JavaScript"]
+	}],
+	"languages": [{
+			"language": "Indonesian",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent"
+		}
+	],
+	"interests": [{
+		"name": "Books",
+		"keywords": ["Fiction", "Fantasy", "Self-improvement"]
+	}],
+	"references": [],
+	"projects": []
+}
