@@ -93,6 +93,18 @@
                             </div>
                         </section>
                     {{/if}}
+                    {{#if languages}}
+                        <section class="languages">
+                            <h3 class="section__title">Languages</h3>
+                            <ul class="language-list pl-5">
+                                {{#each languages}}
+                                <li class="list-disc">
+                                    <p class="stackName py-2 text-lg"><strong>{{ this.language }}</strong> - <span>{{ this.fluency }}</span></p>
+                                </li>
+                                {{/each}}
+                            </ul>                                
+                        </section>
+                    {{/if}}
                     </div>
                 </div>
             </div>

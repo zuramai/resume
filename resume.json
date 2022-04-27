@@ -47,13 +47,14 @@
             "summary": "",
             "location": "Github",
             "highlights": [
-                "Developed a web application (WhatsappBot App) with Python Flask",
-                "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
+                "Received 2500+ stars on personal projects.",
+                "Mantaining numerous projects on Github",
+                "Actively contribute to the open source community"
             ]
 	    },
         {
             "name": "PT Solusi Intek Indonesia",
-            "position": "Web Developer",
+            "position": "Web Developer Intern",
             "url": "https://intek.co.id/",
             "startDate": "Jan 2019",
             "endDate": "Apr 2019",
@@ -116,7 +117,8 @@
             "keywords": ["PHP", "Go", "Javascript", "Python"]
         }
     ],
-	"languages": [{
+	"languages": [
+        {
 			"language": "Indonesian",
 			"fluency": "Native speaker"
 		},
@@ -130,5 +132,22 @@
 		"keywords": ["Fiction", "Fantasy", "Self-improvement"]
 	}],
 	"references": [],
-	"projects": []
+	"projects": [
+        {
+            "name": "Mazer Dashboard Template",
+            "description": "Free and Open-source Bootstrap 5 Admin Dashboard Template",
+            "highlights": [],
+            "keywords": [
+              "bootstrap", "template", "dashboard", "admin-dashboard", "free-template"
+            ],
+            "startDate": "Jan 2021",
+            "endDate": "Currently maintaining",
+            "url": "https://github.com/zuramai/mazer",
+            "roles": [
+              "Owner & Maintainer"
+            ],
+            "type": "application",
+            "entity": ""
+        }
+    ]
 }
