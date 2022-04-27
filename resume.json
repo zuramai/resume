@@ -90,11 +90,8 @@
     ],
 	"volunteer": [],
 	"awards": [{
-		"title": "Web Technology LKS National Competition 2020",
-		"date": {
-			"year": "2020",
-			"month": 10
-		},
+		"title": "1st Place in LKS National Competition (Web Technology) 2020",
+		"date": "Oct 2021",
 		"awarder": "Ministry of Education Indonesia",
 		"summary": ""
 	}],
@@ -135,14 +132,66 @@
 	"projects": [
         {
             "name": "Mazer Dashboard Template",
-            "description": "Free and Open-source Bootstrap 5 Admin Dashboard Template",
+            "description": "Clean, Modern, Free, and Open-source Bootstrap 5 Admin Dashboard Template",
             "highlights": [],
             "keywords": [
               "bootstrap", "template", "dashboard", "admin-dashboard", "free-template"
             ],
             "startDate": "Jan 2021",
             "endDate": "Currently maintaining",
-            "url": "https://github.com/zuramai/mazer",
+            "githubUrl": "https://github.com/zuramai/mazer",
+            "url": "https://zuramai.github.io/mazer",
+            "roles": [
+              "Owner & Maintainer"
+            ],
+            "type": "application",
+            "entity": ""
+        },
+        {
+            "name": "Voler Admin Dashboard",
+            "description": "The First Bootstrap 5 Admin Dashboard Template",
+            "highlights": [],
+            "keywords": [
+              "bootstrap", "template", "dashboard", "admin-dashboard", "free-template"
+            ],
+            "startDate": "Aug 2021",
+            "endDate": "Currently maintaining",
+            "githubUrl": "https://github.com/zuramai/voler",
+            "url": "https://zuramai.github.io/voler/",
+            "roles": [
+              "Owner & Maintainer"
+            ],
+            "type": "application",
+            "entity": ""
+        },
+        {
+            "name": "Starback.js",
+            "description": "Create a beautiful star falling background with starback.js",
+            "highlights": [],
+            "keywords": [
+              "canvas", "css-animation", "background-animation"
+            ],
+            "startDate": "Aug 2021",
+            "endDate": "Currently maintaining",
+            "githubUrl": "https://github.com/zuramai/starback.js",
+            "url": "https://zuramai.github.io/starback.js",
+            "roles": [
+              "Owner & Maintainer"
+            ],
+            "type": "application",
+            "entity": ""
+        },
+        {
+            "name": "Hugoblog",
+            "description": "Hugoblog is responsive, simple, and clean that very fit for your personal blog based on Hugo Theme Static Site Generator (SSG)",
+            "highlights": [],
+            "keywords": [
+              "canvas", "css-animation", "background-animation"
+            ],
+            "startDate": "Mar 2021",
+            "endDate": "Currently maintaining",
+            "githubUrl": "https://github.com/zuramai/hugoblog",
+            "url": "https://zuramai.github.io/hugoblog",
             "roles": [
               "Owner & Maintainer"
             ],

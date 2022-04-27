@@ -6,14 +6,17 @@
 body {
     font-family: 'Source Serif Pro';
     background-color: #f5f5f0;
-    @apply text-stone-700 text-base;
+    @apply text-stone-700 text-lg;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Cormorant Garamond';
     font-weight: 600;
 }
 a {
-    @apply border-b border-stone-600 border-dashed transition duration-100;
+    @apply transition duration-100;
+    &:not(.no-underline) {
+        @apply border-b border-stone-600 border-dashed;
+    }
 }
 a:hover {
     @apply text-yellow-700 border-yellow-700;
@@ -52,7 +55,7 @@ section.basic {
     @apply text-5xl uppercase mb-5;
 }
 .card__title {
-    @apply text-xl text-serif font-semibold text-stone-800;
+    @apply text-xl text-serif font-semibold text-stone-700;
 }
 .card__desc {
     @apply text-base text-serif font-normal text-stone-700;

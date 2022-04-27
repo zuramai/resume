@@ -2,25 +2,35 @@ import { defineConfig } from 'vite'
 import axios from 'axios'
 import hbs from 'handlebars';
 import handlebars from 'vite-plugin-handlebars';
-import json from "./resume.json"
+import resume from "./resume.json"
 
 const resumeURL = "https://gist.githubusercontent.com/zuramai/5481baa53f9b634362cce9d23c090da5/raw"
 
-const getResumeJSON = async () => {
-    let resume = {}
-    await axios.get(resumeURL)
-        .then(res => {
-            resume = JSON.parse(JSON.stringify(res.data))
-        })
-    return resume
+const getGithubApi = (url) => {
+    return url.replace('https://github.com/', 'https://api.github.com/repos/')
+}
+
+const getProjectStars = async (url) => {
+    try {
+        const api = getGithubApi(url)
+        const { data } = await axios.get(api)
+        return data.stargazers_count
+    }
+    catch(e){
+        console.error(e)
+        return 'NaN'
+    }
 }
 
 export default defineConfig(async ({ command, mode }) => {
+    for (const project of resume.projects){
+        if (project.githubUrl)
+          project.stars = await getProjectStars(project.githubUrl)
+    }
     return {
         plugins: [
             handlebars({
                 context: async () => {
-                    const resume = json
                     return resume
                 },
                 helpers: {

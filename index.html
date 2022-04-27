@@ -80,19 +80,7 @@
                             </ul>
                         </section>
                     {{/if}}
-                    </div>
-                    <div class="w-full md:w-1/2 | md:border-l border-stone-600 md:px-5 py-8">
-                    {{#if skills}}
-                        <section class="education">
-                            <h3 class="section__title">Stacks</h3>
-                            <div class="grid grid-cols-3">
-                            {{#each skills}}
-                                <p class="stackName py-2">{{ this.name }}</p>
-                                <p class="stackList py-2">{{joinComma this.keywords }}</p>
-                            {{/each}}
-                            </div>
-                        </section>
-                    {{/if}}
+
                     {{#if languages}}
                         <section class="languages">
                             <h3 class="section__title">Languages</h3>
@@ -103,6 +91,41 @@
                                 </li>
                                 {{/each}}
                             </ul>                                
+                        </section>
+                    {{/if}}
+                    </div>
+                    <div class="w-full md:w-1/2 | md:border-l border-stone-600 md:px-5 py-8">
+                    {{#if skills}}
+                        <section class="education">
+                            <h3 class="section__title">Stacks</h3>
+                            <div class="grid grid-cols-3">
+                            {{#each skills}}
+                                <p class="stackName py-2"><strong>{{ this.name }}</strong></p>
+                                <p class="stackList py-2">{{joinComma this.keywords }}</p>
+                            {{/each}}
+                            </div>
+                        </section>
+                    {{/if}}
+                    {{#if projects}}
+                        <section class="projects">
+                            <h3 class="section__title">Projects</h3>
+                            <ul class="card-lists pt-2">
+                            {{#each projects}}
+                                <li class="card mb-5">
+                                    <h5 class="card__title | flex items-center gap-2">
+                                        <span>{{this.name}}</span>
+                                        <a href="{{ this.githubUrl }}" target="_blank" class="no-underline">
+                                            <span class="iconify" data-icon="{{toSocialIcon "github" }}"></span>
+                                        </a>
+                                    </h5>
+                                    <p class="card__desc my-2">{{this.description}}</p>
+                                    <p class="card__desc | flex items-center gap-1">
+                                        <span class="iconify" data-icon="ri:star-fill"></span>
+                                        <span>{{ this.stars }}</span>
+                                    </p>
+                                </li>
+                            {{/each}}
+                            </ul>
                         </section>
                     {{/if}}
                     </div>
