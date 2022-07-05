@@ -1,208 +1,218 @@
 {
-	"basics": {
-		"name": "Ahmad Saugi",
-		"label": "Software Engineer",
-		"image": "https://github.com/zuramai/resume/blob/main/src/images/photo.jpg?raw=true",
-		"email": "saugi.dev@gmail.com",
-		"url": "https://saugi.me",
-		"summary": "My name is Ahmad Saugi, a bachelor of computer science student. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.\n\nI am also an open-source enthusiast and maintainer. I love how collaboration and knowledge sharing happens through open-source and I am happy to see what I do could eventually feedback to the community and industry.\n\nOutside of programming, I enjoy reading books. I love the pleasure and excitement of gaining new knowledge other than programming from the books I read.",
-		"location": {
-			"countryCode": "ID",
-			"region": "Indonesia"
-		},
-		"profiles": [{
-				"network": "github",
-				"username": "zuramai",
-				"url": "https://github.com/zuramai"
-			},
-			{
-				"network": "linkedin",
-				"username": "ahmad-saugi",
-				"url": "https://linkedin.com/in/ahmad-saugi"
-			},
-			{
-				"network": "twitter",
-				"username": "asawgi",
-				"url": "https://twitter.com/in/asawgi"
-			},
-			{
-				"network": "instagram",
-				"username": "asawgi",
-				"url": "https://instagram.com/asawgi"
-			},
-			{
-				"network": "portfolio",
-				"username": "saugi.me",
-				"url": "https://saugi.me"
-			}
-		]
-	},
-	"work": [
-        {
-            "name": "Open Source",
-            "position": "OSS Developer",
-            "url": "https://github.com/zuramai",
-            "startDate": "Apr 2020",
-            "endDate": "Present",
-            "summary": "",
-            "location": "Github",
-            "highlights": [
-                "Received 2500+ stars on personal projects.",
-                "Mantaining numerous projects on Github",
-                "Actively contribute to the open source community"
-            ]
-	    },
-        {
-            "name": "PT Solusi Intek Indonesia",
-            "position": "Web Developer Intern",
-            "url": "https://intek.co.id/",
-            "startDate": "Jan 2019",
-            "endDate": "Apr 2019",
-            "summary": "",
-            "location": "Bekasi, Indonesia",
-            "highlights": [
-                "Developed a web application (WhatsappBot App) with Python Flask",
-                "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
-            ]
-	    }
-    ],
-	"education": [
-        {
-            "institution": "Binus University",
-            "url": "https://binus.ac.id/",
-            "area": "Computer Science",
-            "studyType": "Bachelor of Science",
-            "startDate": "2020",
-            "endDate": "Currently pursuing",
-            "score": "",
-            "courses": []
-        },
-        {
-            "institution": "SMKN 10 Jakarta",
-            "url": "https://binus.ac.id/",
-            "area": "Software Engineering",
-            "studyType": "Vocational High School",
-            "startDate": "2017",
-            "endDate": "2020",
-            "score": "",
-            "courses": []
-        }
-    ],
-	"volunteer": [],
-	"awards": [{
-		"title": "1st Place in LKS National Competition (Web Technology) 2020",
-		"date": "Oct 2021",
-		"awarder": "Ministry of Education Indonesia",
-        "highlights": [
-            "Speedtest Module (complete several small tasks) in 2 hours",
-            "CMS Wordpress Module (create theme and plugins) in 2 hours",
-            "Server-side Module (using Laravel and VueJS) in 6 hours",
-            "Client-side Module (create HTML5 game) in 4 hours"
-        ],
-		"summary": ""
-	}],
-	"certificates": [],
-	"publications": [],
-	"skills": [
-        {
-            "name": "Frontend",
-            "level": "",
-            "keywords": ["Typescript", "Javascript", "Vite", "Vue", "Svelte"]
-        },
-        {
-            "name": "Backend",
-            "level": "",
-            "keywords": ["Laravel", "Go", "Wordpress", "Flask", "Serverless", "Nodejs", "SQL", "MongoDB"]
-        },
-        {
-            "name": "Languages",
-            "level": "",
-            "keywords": ["PHP", "Go", "Javascript", "Python"]
-        }
-    ],
-	"languages": [
-        {
-			"language": "Indonesian",
-			"fluency": "Native speaker"
-		},
-		{
-			"language": "English",
-			"fluency": "Fluent"
-		}
-	],
-	"interests": [{
-		"name": "Books",
-		"keywords": ["Fiction", "Fantasy", "Self-improvement"]
-	}],
-	"references": [],
-	"projects": [
-        {
-            "name": "Mazer Dashboard Template",
-            "description": "Clean, Modern, Free, and Open-source Bootstrap 5 Admin Dashboard Template",
-            "highlights": [],
-            "keywords": [
-              "bootstrap", "template", "dashboard", "admin-dashboard", "free-template"
-            ],
-            "startDate": "Jan 2021",
-            "endDate": "Currently maintaining",
-            "githubUrl": "https://github.com/zuramai/mazer",
-            "url": "https://zuramai.github.io/mazer",
-            "roles": [
-              "Owner & Maintainer"
-            ],
-            "type": "application",
-            "entity": ""
-        },
-        {
-            "name": "Voler Admin Dashboard",
-            "description": "The First Bootstrap 5 Admin Dashboard Template",
-            "highlights": [],
-            "keywords": [
-              "bootstrap", "template", "dashboard", "admin-dashboard", "free-template"
-            ],
-            "startDate": "Aug 2021",
-            "endDate": "Currently maintaining",
-            "githubUrl": "https://github.com/zuramai/voler",
-            "url": "https://zuramai.github.io/voler/",
-            "roles": [
-              "Owner & Maintainer"
-            ],
-            "type": "application",
-            "entity": ""
-        },
-        {
-            "name": "Starback.js",
-            "description": "Create a beautiful star falling background with starback.js",
-            "highlights": [],
-            "keywords": [
-              "canvas", "css-animation", "background-animation"
-            ],
-            "startDate": "Aug 2021",
-            "endDate": "Currently maintaining",
-            "githubUrl": "https://github.com/zuramai/starback.js",
-            "url": "https://zuramai.github.io/starback.js",
-            "roles": [
-              "Owner & Maintainer"
-            ],
-            "type": "application",
-            "entity": ""
-        },
-        {
-            "name": "Hugoblog",
-            "description": "Hugoblog is responsive, simple, and clean that very fit for your personal blog based on Hugo Theme Static Site Generator (SSG)",
-            "highlights": [],
-            "keywords": [
-              "canvas", "css-animation", "background-animation"
-            ],
-            "startDate": "Mar 2021",
-            "endDate": "Currently maintaining",
-            "githubUrl": "https://github.com/zuramai/hugoblog",
-            "url": "https://zuramai.github.io/hugoblog",
-            "roles": [
-              "Owner & Maintainer"
-            ],
-            "type": "application",
-            "entity": ""
-        }
+  "basics": {
+    "name": "Ahmad Saugi",
+    "label": "Software Engineer",
+    "image": "https://github.com/zuramai/resume/blob/main/src/images/photo.jpg?raw=true",
+    "email": "saugi.dev@gmail.com",
+    "url": "https://saugi.me",
+    "summary": "My name is Ahmad Saugi, a bachelor of computer science student. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.\n\nI am also an open-source enthusiast and maintainer. I love how collaboration and knowledge sharing happens through open-source and I am happy to see what I do could eventually feedback to the community and industry.\n\nOutside of programming, I enjoy reading books. I love the pleasure and excitement of gaining new knowledge other than programming from the books I read.",
+    "location": {
+      "countryCode": "ID",
+      "region": "Indonesia"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "zuramai",
+        "url": "https://github.com/zuramai"
+      },
+      {
+        "network": "linkedin",
+        "username": "ahmad-saugi",
+        "url": "https://linkedin.com/in/ahmad-saugi"
+      },
+      {
+        "network": "twitter",
+        "username": "asawgi",
+        "url": "https://twitter.com/in/asawgi"
+      },
+      {
+        "network": "instagram",
+        "username": "asawgi",
+        "url": "https://instagram.com/asawgi"
+      },
+      {
+        "network": "portfolio",
+        "username": "saugi.me",
+        "url": "https://saugi.me"
+      }
     ]
+  },
+  "work": [
+    {
+      "name": "Open Source",
+      "position": "OSS Developer",
+      "url": "https://github.com/zuramai",
+      "startDate": "Apr 2020",
+      "endDate": "Present",
+      "summary": "",
+      "location": "Github",
+      "highlights": [
+        "Received 2500+ stars on personal projects.",
+        "Mantaining numerous projects on Github",
+        "Actively contribute to the open source community"
+      ]
+    },
+    {
+      "name": "PT Solusi Intek Indonesia",
+      "position": "Web Developer Intern",
+      "url": "https://intek.co.id/",
+      "startDate": "Jan 2019",
+      "endDate": "Apr 2019",
+      "summary": "",
+      "location": "Bekasi, Indonesia",
+      "highlights": [
+        "Developed a web application (WhatsappBot App) with Python Flask",
+        "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Binus University",
+      "url": "https://binus.ac.id/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2020",
+      "endDate": "Currently pursuing",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "SMKN 10 Jakarta",
+      "url": "https://binus.ac.id/",
+      "area": "Software Engineering",
+      "studyType": "Vocational High School",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "volunteer": [],
+  "awards": [
+    {
+      "title": "1st Place in LKS National Competition (Web Technology) 2020",
+      "date": "Oct 2021",
+      "awarder": "Ministry of Education Indonesia",
+      "highlights": [
+        "Speedtest Module (complete several small tasks) in 2 hours",
+        "CMS Wordpress Module (create theme and plugins) in 2 hours",
+        "Server-side Module (using Laravel and VueJS) in 6 hours",
+        "Client-side Module (create HTML5 game) in 4 hours"
+      ],
+      "summary": ""
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": ["Typescript", "Javascript", "Vite", "Vue", "Svelte"]
+    },
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": [
+        "Laravel",
+        "Go",
+        "Wordpress",
+        "Flask",
+        "Serverless",
+        "Nodejs",
+        "SQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": ["PHP", "Go", "Javascript", "Python"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Books",
+      "keywords": ["Fiction", "Fantasy", "Self-improvement"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Mazer Dashboard Template",
+      "description": "Clean, Modern, Free, and Open-source Bootstrap 5 Admin Dashboard Template",
+      "highlights": [],
+      "keywords": [
+        "bootstrap",
+        "template",
+        "dashboard",
+        "admin-dashboard",
+        "free-template"
+      ],
+      "startDate": "Jan 2021",
+      "endDate": "Currently maintaining",
+      "githubUrl": "https://github.com/zuramai/mazer",
+      "url": "https://zuramai.github.io/mazer",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    },
+    {
+      "name": "Voler Admin Dashboard",
+      "description": "The First Bootstrap 5 Admin Dashboard Template",
+      "highlights": [],
+      "keywords": [
+        "bootstrap",
+        "template",
+        "dashboard",
+        "admin-dashboard",
+        "free-template"
+      ],
+      "startDate": "Aug 2021",
+      "endDate": "Currently maintaining",
+      "githubUrl": "https://github.com/zuramai/voler",
+      "url": "https://zuramai.github.io/voler/",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    },
+    {
+      "name": "Starback.js",
+      "description": "Create a beautiful star falling background with starback.js",
+      "highlights": [],
+      "keywords": ["canvas", "css-animation", "background-animation"],
+      "startDate": "Aug 2021",
+      "endDate": "Currently maintaining",
+      "githubUrl": "https://github.com/zuramai/starback.js",
+      "url": "https://zuramai.github.io/starback.js",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    },
+    {
+      "name": "Hugoblog",
+      "description": "Hugoblog is responsive, simple, and clean that very fit for your personal blog based on Hugo Theme Static Site Generator (SSG)",
+      "highlights": [],
+      "keywords": ["canvas", "css-animation", "background-animation"],
+      "startDate": "Mar 2021",
+      "endDate": "Currently maintaining",
+      "githubUrl": "https://github.com/zuramai/hugoblog",
+      "url": "https://zuramai.github.io/hugoblog",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    }
+  ]
 }
