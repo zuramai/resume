@@ -48,7 +48,7 @@
       "summary": "",
       "location": "Github",
       "highlights": [
-        "Received 2500+ stars on personal projects.",
+        "Received 3000+ stars on personal projects.",
         "Mantaining numerous projects on Github",
         "Actively contribute to the open source community"
       ]
@@ -92,13 +92,25 @@
   "volunteer": [],
   "awards": [
     {
-      "title": "1st Place in LKS National Competition (Web Technology) 2020",
+      "title": "2nd Place in WorldSkills ASEAN Singapore 2023 Web Technologies",
+      "date": "Oct 2021",
+      "awarder": "WorldSkills International",
+      "highlights": [
+        "Speedtest Module: complete several small task (CSS animation, PHP calendar, etc)",
+        "CMS Wordpress Module: create theme (recipe website) and rating plugin in 3 hours",
+        "Server-side Module: create football tournament website (with matchmaking algorithm)",
+        "Client-side Module: create interactive quiz game with pure JavaScript in 3 hours"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "1st Place in LKS National Competition (Web Technologies) 2020",
       "date": "Oct 2021",
       "awarder": "Ministry of Education Indonesia",
       "highlights": [
         "Speedtest Module (complete several small tasks) in 2 hours",
         "CMS Wordpress Module (create theme and plugins) in 2 hours",
-        "Server-side Module (using Laravel and VueJS) in 6 hours",
+        "Server-side Module (using Laravel and VueJS) in 5 hours",
         "Client-side Module (create HTML5 game) in 4 hours"
       ],
       "summary": ""
@@ -110,7 +122,7 @@
     {
       "name": "Frontend",
       "level": "",
-      "keywords": ["Typescript", "Javascript", "Vite", "Vue", "Svelte"]
+      "keywords": ["Typescript", "Javascript", "React", "Vue"]
     },
     {
       "name": "Backend",
@@ -118,18 +130,17 @@
       "keywords": [
         "Laravel",
         "Go",
+        "Rust",
         "Wordpress",
-        "Flask",
-        "Serverless",
-        "Nodejs",
-        "SQL",
+        "PostgreSQL",
+        "Redis",
         "MongoDB"
       ]
     },
     {
       "name": "Languages",
       "level": "",
-      "keywords": ["PHP", "Go", "Javascript", "Python"]
+      "keywords": ["PHP", "Go", "Javascript", "Rust"]
     }
   ],
   "languages": [
@@ -210,6 +221,32 @@
       "endDate": "Currently maintaining",
       "githubUrl": "https://github.com/zuramai/hugoblog",
       "url": "https://zuramai.github.io/hugoblog",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    },
+    {
+      "name": "Jsonvis",
+      "description": "SVG Json Visualizer",
+      "highlights": [],
+      "keywords": ["svg", "data-visualization"],
+      "endDate": "Currently maintaining",
+      "startDate": "Oct 2022",
+      "githubUrl": "https://github.com/zuramai/jsonvis",
+      "url": "https://zuramai.github.io/jsonvis",
+      "roles": ["Owner & Maintainer"],
+      "type": "application",
+      "entity": ""
+    },
+    {
+      "name": "Graphism",
+      "description": "A tool to create graph visualization and run algorithms on top of it",
+      "highlights": [],
+      "keywords": ["canvas", "visualization"],
+      "startDate": "Aug 2021",
+      "endDate": "Currently maintaining",
+      "githubUrl": "https://github.com/zuramai/graphism",
+      "url": "https://zuramai.github.io/graphism",
       "roles": ["Owner & Maintainer"],
       "type": "application",
       "entity": ""
