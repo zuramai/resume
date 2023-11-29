@@ -5,33 +5,32 @@
     "image": "https://github.com/zuramai/resume/blob/main/src/images/photo.jpg?raw=true",
     "email": "saugi.dev@gmail.com",
     "url": "https://saugi.me",
-    "summary": "My name is Ahmad Saugi, a bachelor of computer science student. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.\n\nI am also an open-source enthusiast and maintainer. I love how collaboration and knowledge sharing happens through open-source and I am happy to see what I do could eventually feedback to the community and industry.\n\nOutside of programming, I enjoy reading books. I love the pleasure and excitement of gaining new knowledge other than programming from the books I read.",
+    "summary": "My name is Ahmad Saugi, a bachelor of computer science student. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in experience, architecture, and code quality of the things I build.\n\nI am also an open-source enthusiast and maintainer. I love how collaboration and knowledge sharing happens through open-source and I am happy to see what I do could eventually feedback to the community and industry.",
     "location": {
       "countryCode": "ID",
       "region": "Indonesia"
     },
     "profiles": [
       {
+        "text": "zuramai",
         "network": "github",
         "username": "zuramai",
         "url": "https://github.com/zuramai"
       },
       {
+        "text": "https://linkedin.com/in/ahmad-saugi",
         "network": "linkedin",
         "username": "ahmad-saugi",
         "url": "https://linkedin.com/in/ahmad-saugi"
       },
       {
-        "network": "twitter",
-        "username": "asawgi",
-        "url": "https://twitter.com/in/asawgi"
-      },
-      {
+        "text": "asawgi",
         "network": "instagram",
         "username": "asawgi",
         "url": "https://instagram.com/asawgi"
       },
       {
+        "text": "saugi.me",
         "network": "portfolio",
         "username": "saugi.me",
         "url": "https://saugi.me"
@@ -74,7 +73,7 @@
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2020",
-      "endDate": "Currently pursuing",
+      "endDate": "2024",
       "score": "",
       "courses": []
     },
