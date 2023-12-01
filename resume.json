@@ -49,7 +49,8 @@
       "highlights": [
         "Received 3000+ stars on personal projects.",
         "Mantaining numerous projects on Github",
-        "Actively contribute to the open source community"
+        "Actively contribute to the open source community",
+        "Main tech stacks: Vue, React, Nuxt, Next.js, TypeScript, Rust"
       ]
     },
     {
@@ -62,7 +63,8 @@
       "location": "Bekasi, Indonesia",
       "highlights": [
         "Developed a web application (WhatsappBot App) with Python Flask",
-        "Developed a fullstack face recognition app for school with Laravel, VueJS, Golang, MongoDB, PostgreSQL, and Redis"
+        "Developed a fullstack face recognition app for school",
+        "Tech stacks:  Python, Laravel, Vue, Golang, MongoDB, PostgreSQL, and Redis"
       ]
     }
   ],
@@ -121,7 +123,7 @@
     {
       "name": "Frontend",
       "level": "",
-      "keywords": ["Typescript", "Javascript", "React", "Vue"]
+      "keywords": ["Typescript", "Javascript", "React", "Vue", "Nuxt", "Next.js"]
     },
     {
       "name": "Backend",
@@ -139,7 +141,7 @@
     {
       "name": "Languages",
       "level": "",
-      "keywords": ["PHP", "Go", "Javascript", "Rust"]
+      "keywords": ["PHP", "Go", "Javascript", "TypeScript", "Rust"]
     }
   ],
   "languages": [
