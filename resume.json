@@ -225,32 +225,6 @@
       "roles": ["Owner & Maintainer"],
       "type": "application",
       "entity": ""
-    },
-    {
-      "name": "Jsonvis",
-      "description": "SVG Json Visualizer",
-      "highlights": [],
-      "keywords": ["svg", "data-visualization"],
-      "endDate": "Currently maintaining",
-      "startDate": "Oct 2022",
-      "githubUrl": "https://github.com/zuramai/jsonvis",
-      "url": "https://zuramai.github.io/jsonvis",
-      "roles": ["Owner & Maintainer"],
-      "type": "application",
-      "entity": ""
-    },
-    {
-      "name": "Graphism",
-      "description": "A tool to create graph visualization and run algorithms on top of it",
-      "highlights": [],
-      "keywords": ["canvas", "visualization"],
-      "startDate": "Aug 2021",
-      "endDate": "Currently maintaining",
-      "githubUrl": "https://github.com/zuramai/graphism",
-      "url": "https://zuramai.github.io/graphism",
-      "roles": ["Owner & Maintainer"],
-      "type": "application",
-      "entity": ""
     }
   ]
 }
